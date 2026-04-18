@@ -1,5 +1,7 @@
 import os
 from dotenv import load_dotenv
+import streamlit as st
+
 
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
@@ -12,7 +14,7 @@ load_dotenv()
 
 def get_qa_chain():
     llm = ChatGroq(
-        groq_api_key=os.getenv("GROQ_API_KEY"),
+        groq_api_key = st.secrets["GROQ_API_KEY"],
         model_name="llama-3.1-8b-instant"
     )
 

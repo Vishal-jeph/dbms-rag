@@ -1,4 +1,4 @@
-# 📚 AI-Powered DBMS Assistant (RAG आधारित Chatbot)
+# 📚 AI-Powered DBMS Assistant (RAG Chatbot)
 
 An intelligent, domain-specific chatbot built using **Retrieval-Augmented Generation (RAG)** to answer Database Management System (DBMS) queries based on custom course materials.
 
